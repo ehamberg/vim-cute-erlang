@@ -8,6 +8,7 @@ syntax match erlNiceOperator ">=" conceal cchar=≥
 syntax match erlNiceOperator "=:=" conceal cchar=≡
 syntax match erlNiceOperator "=/=" conceal cchar=≢
 syntax match erlNiceOperator "->" conceal cchar=→
+syntax match erlNiceOperator "=>" conceal cchar=⇒
 syntax match erlNiceOperator "::" conceal cchar=∷
 
 " include the space after “not” if present – so that “not X” becomes “¬X”.
